@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class prime{
+int a,b;
+public void getnum(int a, int b)
+{
+
+}
+}
+public class PrimeNum{
+public static void main(String [] args){
+
+Scanner s= new Scanner(System.in);
+
+
+System.out.println("Enter the first number");
+int a= s.nextInt();
+
+System.out.println("Enter the Second number");
+int a= s.nextInt();
+}
+}

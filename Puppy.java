@@ -1,25 +1,25 @@
-public class Puppy{
-public Puppy(){
-int total;
-int a=10;
-int b;
-}
-Public Puppy(String name){
-System.out.prinln("Doggie Name: "+name);
-}
-Public Puppy(Sting color, int price){}
-{
-b=price*a;
-System.out.prinln("color = "+color);
-}
-public int Print(){
-System.out.prinln("Price of puppy"+b);
-return b;
-}
-public static void main(String args[]){
 
-Puppy s1= new Puppy ("TOMMY");
- s1.Puppy("BLACK",1);
-s1.Puppy.Print();
+
+public class Puppy{
+int name;
+int size=10;
+public Puppy(){
+System.out.println("this is my puppy");
+
+}
+public Puppy(String na){
+System.out.println("my puppy name is "+na);
+}
+public Puppy(int age){
+age=age+size;
+System.out.println("my puppy age is "+age);
+
+}
+
+public static void main (String [] args){
+
+Puppy p1=new Puppy("mojo");
+Puppy p= new Puppy();
+Puppy p2= new Puppy(10);
 }
 }
